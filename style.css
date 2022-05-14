@@ -2,3 +2,76 @@
     margin: 0;
     padding: 0;
 }
+
+.slider {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slides {
+    overflow: hidden;
+    width: 100%;
+    height: 60vh;
+}
+
+.slide {
+    display: block;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 35%;
+}
+
+.switcher {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.switcher-btn {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.slides-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    overflow: hidden;
+}
+
+.slide-text {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    min-height: 100%;
+}
+
+input {
+    display: none;
+}
+
