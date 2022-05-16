@@ -140,4 +140,28 @@ input {
     transform: translateY(-300%);
 }
 
+@media (max-width: 768px) {
+    .slider {
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .navigation {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .slides-text {
+        height: 3rem;
+    }
+
+    .slide-text {
+        font-size: 1.3rem;
+    }
+}
+
 
