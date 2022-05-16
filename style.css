@@ -69,7 +69,7 @@ body {
     border-radius: 50%;
 }
 
-.switcher-btn:hover {
+.switcher:hover .switcher-btn {
     background-color: white;
     border-color:white;
 }
