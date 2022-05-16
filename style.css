@@ -156,7 +156,8 @@ input {
     }
 
     .slides-text {
-        height: 3rem;
+        width: 75%;
+        height: 5rem;
         margin-top: 1rem;
     }
 
