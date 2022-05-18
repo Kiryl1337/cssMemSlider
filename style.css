@@ -56,7 +56,7 @@ body {
 }
 
 .switcher {
-    padding: 10px;
+    padding: 0.625rem;
     cursor: pointer;
 }
 
@@ -65,7 +65,7 @@ body {
     width: 1.2rem;
     height: 1.2rem;
     background-color: #33dbde;
-    border: 2px solid #33dbde;
+    border: 0.125rem solid #33dbde;
     border-radius: 50%;
 }
 
