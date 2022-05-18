@@ -74,18 +74,17 @@ body {
     border-color:white;
 }
 
+.switcher:active .switcher-btn {
+    background-color: yellow;
+    border-color:yellow;
+    transition: .7s;
+}
+
 #radio1:checked ~ .container > .navigation > label:nth-child(1) > .switcher-btn, 
 #radio2:checked ~ .container > .navigation > label:nth-child(2) > .switcher-btn,
 #radio3:checked ~ .container > .navigation > label:nth-child(3) > .switcher-btn,
 #radio4:checked ~ .container > .navigation > label:nth-child(4) > .switcher-btn {
     background-color: #1f2424;
-}
-
-#radio1:checked ~ .container > .navigation > label:nth-child(1) > .switcher-btn:hover, 
-#radio2:checked ~ .container > .navigation > label:nth-child(2) > .switcher-btn:hover,
-#radio3:checked ~ .container > .navigation > label:nth-child(3) > .switcher-btn:hover,
-#radio4:checked ~ .container > .navigation > label:nth-child(4) > .switcher-btn:hover {
-    border-color: white;
 }
 
 .slides-text {
